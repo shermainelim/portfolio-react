@@ -14,6 +14,9 @@ const Header = () => {
             "Facebook Ads SMM",
             "Google Ads",
           ]}
+          typeSpeed={40}
+          backSpeed={60}
+          loop
         />
       </div>
     </div>
