@@ -20,7 +20,7 @@ const Pofrfolio = () => {
       <>
         <img
           className="portfolio-image-popupbox"
-          src={anoth_girl}
+          src={marker}
           alt="Netflix Clone Project..."
         />
         <p>
@@ -56,7 +56,7 @@ const Pofrfolio = () => {
       <>
         <img
           className="portfolio-image-popupbox"
-          src={codinggod}
+          src={marker}
           alt="City Guide App Project..."
         />
         <p>
@@ -76,7 +76,7 @@ const Pofrfolio = () => {
           https://city-guide-app-project.herokuapp.com/
         </a>
         <br />
-        <b>GitHub:</b>{" "}
+        <b>GitHub:</b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -108,14 +108,14 @@ const Pofrfolio = () => {
       <>
         <img
           className="portfolio-image-popupbox"
-          src={girl_hoodie}
+          src={marker}
           alt="Portfolio Project..."
         />
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
           illo est expedita quos adipisci suscipit unde itaque qui perferendis.
         </p>
-        <b>Demo:</b>{" "}
+        <b>Demo:</b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -128,7 +128,7 @@ const Pofrfolio = () => {
           https://portfolio-rea-and-material-ui.herokuapp.com/
         </a>
         <br />
-        <b>GitHub:</b>{" "}
+        <b>GitHub:</b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -164,7 +164,7 @@ const Pofrfolio = () => {
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex cumque
           illo est expedita quos adipisci suscipit unde itaque qui perferendis.
         </p>
-        <b>Demo:</b>{" "}
+        <b>Demo:</b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -177,7 +177,7 @@ const Pofrfolio = () => {
           https://react-redux-task-manager.herokuapp.com/
         </a>
         <br />
-        <b>GitHub:</b>{" "}
+        <b>GitHub:</b>
         <a
           className="hyper-link"
           onClick={() =>
@@ -204,11 +204,11 @@ const Pofrfolio = () => {
     <div className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-5">portfolio</h1>
-        <div className="image-box-wrapper row justify-content-center">
+        <div className="image-box-wrapper d-flex flex-wrap align-items-center justify-content-center">
           <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
             <img
               className="portfolio-image"
-              src={anoth_girl}
+              src={marker}
               alt="Netflix Clone Project..."
             />
             <div className="overflow"></div>
@@ -218,7 +218,7 @@ const Pofrfolio = () => {
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
             <img
               className="portfolio-image"
-              src={codinggod}
+              src={marker}
               alt="City Guide Project..."
             />
             <div className="overflow"></div>
@@ -228,7 +228,7 @@ const Pofrfolio = () => {
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
             <img
               className="portfolio-image"
-              src={girl_hoodie}
+              src={marker}
               alt="Portfolio React and Material UI Project..."
             />
             <div className="overflow"></div>
