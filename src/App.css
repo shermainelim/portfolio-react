@@ -41,13 +41,14 @@
 
 :root {
   --primary-white: #ffffff;
-  --primary-light-grey: #ccd1d9;
-  --primary-grey: #f4f4f4;
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
   --primary-dark-grey: #666666;
-  --primary-orange: #ffa500;
-  --primary-dark: rgb(52, 58, 6);
+  --primary-orange: #f9ab00;
+  --primary-dark: rgb(52, 58, 64);
   --primary-red: #ef4035;
-  --primary-hover-red: #f35501;
+  --primary-hover-red: #f33501;
+  --primary-black: #000000;
 }
 
 body {
@@ -371,7 +372,7 @@ nav ul li {
   opacity: 0;
   background: var(--primary-black);
   width: 15rem;
-  height: 8rem;
+  height: 8.5rem;
   top: 0;
   border: 1px solid var(--primary-red);
   cursor: pointer;
