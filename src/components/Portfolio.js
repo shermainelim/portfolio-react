@@ -234,6 +234,48 @@ const Pofrfolio = () => {
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
           </div>
+          {/* - Below is duplicate*/}
+          <div
+            className="portfolio-image-box"
+            onClick={openPopupboxTaskManager}
+          >
+            <img
+              className="portfolio-image"
+              src={marker}
+              alt="Task Manager React and Redux Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          <div className="portfolio-image-box" onClick={openPopupboxNetflix}>
+            <img
+              className="portfolio-image"
+              src={marker}
+              alt="Netflix Clone Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
+            <img
+              className="portfolio-image"
+              src={marker}
+              alt="City Guide Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
+          {/* - */}
+          <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
+            <img
+              className="portfolio-image"
+              src={marker}
+              alt="Portfolio React and Material UI Project..."
+            />
+            <div className="overflow"></div>
+            <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+          </div>
           {/* - */}
           <div
             className="portfolio-image-box"
