@@ -12,12 +12,11 @@ const Services = () => {
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faDesktop} size="2x" />
+                <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
               </div>
-              <h3>Web Development</h3>
+              <h3>Full Stacks Development</h3>
               <p>
-                I approach each project individually and always focus on the
-                results.
+                Your project will be built with the best and latest technology.
               </p>
             </div>
           </div>
@@ -28,25 +27,24 @@ const Services = () => {
                 <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
               </div>
 
-              <h3>Web Development</h3>
-              <p>Your website will be build with an new proven technologies.</p>
+              <h3>SDLC and Agile </h3>
+              <p>
+                Results orientated towards each project's Software Development
+                Life Cycle individually.
+              </p>
             </div>
           </div>
           {/* - */}
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon
-                  className="icon"
-                  icon={faFacebookF}
-                  size="2x"
-                />
+                <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
               </div>
 
-              <h3>Facebook Ads SMM</h3>
+              <h3>Data Analytics and SQL</h3>
               <p>
-                Your potential clients well see your services or product on
-                Facebook
+                Data Ingestion, Visual Charts, PowerBI, SQL Query and Python
+                Machine Learning
               </p>
             </div>
           </div>
@@ -54,13 +52,10 @@ const Services = () => {
           <div className="col-lg-3 col-md-6 col-sm-6">
             <div className="box">
               <div className="circle">
-                <FontAwesomeIcon className="icon" icon={faGoogle} size="2x" />
+                <FontAwesomeIcon className="icon" icon={faFileCode} size="2x" />
               </div>
-              <h3>Google Ads</h3>
-              <p>
-                I approach each project individually and always focus on the
-                results.
-              </p>
+              <h3>Cloud Deployment</h3>
+              <p>Azure and AWS for Deploying Applications to Cloud</p>
             </div>
           </div>
         </div>
