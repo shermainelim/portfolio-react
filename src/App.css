@@ -415,7 +415,7 @@ nav ul li {
 
 .hyper-link {
   cursor: pointer;
-  color: var(--primary-orange);
+  color: darkcyan;
 }
 
 .hyper-link:hover {
