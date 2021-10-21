@@ -183,12 +183,12 @@ const Pofrfolio = () => {
           className="hyper-link"
           onClick={() =>
             window.open(
-              "https://github.com/shermainelim/Leave-Application-System_Spring-Boot-Java",
+              "https://github.com/shermainelim/Spring-Boot-Java-Employee-Management-System",
               "_blank"
             )
           }
         >
-          https://github.com/shermainelim/Leave-Application-System_Spring-Boot-Java
+          https://github.com/shermainelim/Spring-Boot-Java-Employee-Management-System
         </a>
       </>
     );
