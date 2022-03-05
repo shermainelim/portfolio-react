@@ -55,9 +55,9 @@ const Pofrfolio = () => {
         <b>Deployed MMO Game: </b>
         <a
           className="hyper-link"
-          onClick={() => window.open("http://mmo.codewithmagic.io/")}
+          onClick={() => window.open("http://mmo3d.codewithmagic.io/")}
         >
-          http://mmo.codewithmagic.io/
+          http://mmo3d.codewithmagic.io/
         </a>
         <br></br>
         <b>Featured in Singapore RedHareGames Blog: </b>
