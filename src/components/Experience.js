@@ -9,11 +9,23 @@ const Experience = () => {
       <div className="container experience-wrapper">
         {/* - */}
 
+        <div className="timeline-block timeline-block-left">
+          <div className="marker"></div>
+          <div className="timeline-content">
+            <h3>2022-Present</h3>
+            <p>
+              Frontend Developer and Associate Consultant doing React.js and
+              Typescript for features in bank application. Studying Masters Of
+              Computer Science at Georgia Institute of Technology.
+            </p>
+          </div>
+        </div>
         {/* - */}
+
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2021-Present</h3>
+            <h3>2021-2022</h3>
             <p>
               Application Developer doing Cross Platform Mobile Development
               (Android & iOS) using React Native and Expo Technology. Also

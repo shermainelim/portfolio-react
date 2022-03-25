@@ -1,14 +1,8 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
-import anoth_girl from "../images/anoth_girl.jpg";
-import codinggod from "../images/codinggod.png";
-import girl_hoodie from "../images/girl_hoodie.jpg";
-
-import marker from "../images/marker.jpg";
-import orinonline from "../images/orinonline.PNG";
-import javaleave from "../images/javaleave.PNG";
-import tictactoe from "../images/tictactoe.jpg";
-import springboot from "../images/springboot.png";
+import orinonline from "../images/mmo.gif";
+import threejs from "../images/threejs.gif";
+import bank from "../images/bank.gif";
 import Csharp from "../images/csharp.jpg";
 import python from "../images/python.png";
 import uml from "../images/uml.png";
@@ -93,6 +87,8 @@ const Pofrfolio = () => {
         >
           https://github.com/shermainelim/WebShop-Transfer-Gold-to-MMORPG-Characters
         </a>
+        <br></br>
+        <br></br>
       </>
     );
     PopupboxManager.open({ content });
@@ -132,6 +128,8 @@ const Pofrfolio = () => {
         >
           https://github.com/shermainelim/KC-House-Pricing-Linear-Regression-and-Breast-Cancer-Machine-Learning-Prediction-System
         </a>
+        <br></br>
+        <br></br>
       </>
     );
     PopupboxManager.open({ content });
@@ -152,29 +150,22 @@ const Pofrfolio = () => {
       <>
         <img
           className="portfolio-image-popupbox"
-          src={javaleave}
-          alt="Spring Boot Java Employee Leave and Overtime Management System"
+          src={threejs}
+          alt="Three.js 3D JavaScript Profile"
         />
         <p>
-          <h1>
-            Spring Boot Java Employee Leave and Overtime Management System
-          </h1>
-          <br></br>
-          Leave and Overtime Application System for Employees and Manager and
-          Administrator using Spring Boot, Java and MySQL. Deployed with Azure
-          and GitHub Actions.
+          <h1>Three.js 3D JavaScript Profile</h1>
+          <br></br>A 3D Visual Moving Profile using Three.js. Demo deployed on
+          Netlify.
         </p>
-        <b>Online Demo: </b>{" "}
+        <b>Online 3D Demo: </b>{" "}
         <a
           className="hyper-link"
           onClick={() =>
-            window.open(
-              "https://shermainespringboot.azurewebsites.net/",
-              "_blank"
-            )
+            window.open("https://codingwithmagic.netlify.app/", "_blank")
           }
         >
-          https://shermainespringboot.azurewebsites.net/
+          https://codingwithmagic.netlify.app/
         </a>
         <br></br>
         <br />
@@ -182,14 +173,13 @@ const Pofrfolio = () => {
         <a
           className="hyper-link"
           onClick={() =>
-            window.open(
-              "https://github.com/shermainelim/Spring-Boot-Java-Employee-Management-System",
-              "_blank"
-            )
+            window.open("https://github.com/shermainelim/3D-website", "_blank")
           }
         >
-          https://github.com/shermainelim/Spring-Boot-Java-Employee-Management-System
+          https://github.com/shermainelim/3D-website
         </a>
+        <br></br>
+        <br></br>
       </>
     );
     PopupboxManager.open({ content });
@@ -224,6 +214,8 @@ const Pofrfolio = () => {
         >
           https://github.com/shermainelim/Online-Supermarket-System-Design-Analysis
         </a>
+        <br></br>
+        <br></br>
       </>
     );
     PopupboxManager.open({ content });
@@ -232,7 +224,7 @@ const Pofrfolio = () => {
   const popupboxConfigCityGuide = {
     titleBar: {
       enable: true,
-      text: "Spring Boot Java Employee Leave and Overtime Management System",
+      text: "threejs",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -244,27 +236,25 @@ const Pofrfolio = () => {
       <>
         <img
           className="portfolio-image-popupbox"
-          src={tictactoe}
-          alt="React Native and Serverless Tic Tac Toe Game"
+          src={bank}
+          alt="React Native Bank App"
         />
         <p>
-          <h1>React Native and Serverless Tic Tac Toe Game</h1>
-          <br></br>A Tic Tac Toe Multiplayer Game built with Serverless
-          Architecture, Firebase and Cloud Function. NoSQL.
+          <h1>React Native Bank App</h1>
+          <br></br>A mobile bank application to transfer money to accounts.
         </p>
 
         <b>GitHub: </b>
         <a
           className="hyper-link"
           onClick={() =>
-            window.open(
-              "https://github.com/shermainelim/TicTacToeOnline",
-              "_blank"
-            )
+            window.open("https://github.com/shermainelim/Bank-Mobile", "_blank")
           }
         >
-          https://github.com/shermainelim/TicTacToeOnline
+          https://github.com/shermainelim/bankOnline
         </a>
+        <br></br>
+        <br></br>
       </>
     );
     PopupboxManager.open({ content });
@@ -273,7 +263,7 @@ const Pofrfolio = () => {
   const popupboxConfigPortfolio = {
     titleBar: {
       enable: true,
-      text: "React Native and Serverless Tic Tac Toe Game",
+      text: "React Native Bank App",
     },
     fadeIn: true,
     fadeInSpeed: 500,
@@ -307,6 +297,8 @@ const Pofrfolio = () => {
         >
           https://github.com/shermainelim/portfolio-react
         </a>
+        <br></br>
+        <br></br>
       </>
     );
     PopupboxManager.open({ content });
@@ -343,6 +335,8 @@ const Pofrfolio = () => {
         >
           https://github.com/shermainelim/Logic-University-Stationery-Inventory-System
         </a>
+        <br></br>
+        <br></br>
       </>
     );
     PopupboxManager.open({ content });
@@ -381,6 +375,8 @@ const Pofrfolio = () => {
         >
           https://github.com/shermainelim/Augmented-Reality-Miku
         </a>
+        <br></br>
+        <br></br>
       </>
     );
     PopupboxManager.open({ content });
@@ -399,26 +395,26 @@ const Pofrfolio = () => {
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div>C#, JavaScript Webshop and MMO Game</div>
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide}>
-            <img
-              className="portfolio-image"
-              src={springboot}
-              alt="Spring Boot Java Employee Leave and Overtime Management System"
-            />
+            <img className="portfolio-image" src={threejs} alt="threejs" />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div>Three.js 3D Portfolio</div>
           </div>
+
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio}>
             <img
               className="portfolio-image"
-              src={tictactoe}
-              alt="React Native and Serverless Tic Tac Toe Game"
+              src={bank}
+              alt="React Native Bank App"
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div>React Native Mobile Bank App</div>
           </div>
           {/* - Below is duplicate*/}
           <div
@@ -432,6 +428,7 @@ const Pofrfolio = () => {
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div>Supply Chain and Machine Learning</div>
           </div>
           <div className="portfolio-image-box" onClick={openPopupboxNetflix2}>
             <img
@@ -441,6 +438,7 @@ const Pofrfolio = () => {
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div>Python Machine Learning Cancer Prediction</div>
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxCityGuide2}>
@@ -451,6 +449,7 @@ const Pofrfolio = () => {
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div>System Design of E-Supermarket</div>
           </div>
           {/* - */}
           <div className="portfolio-image-box" onClick={openPopupboxPortfolio2}>
@@ -461,7 +460,9 @@ const Pofrfolio = () => {
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div>React.JS Web Portfolio</div>
           </div>
+
           {/* - */}
           <div
             className="portfolio-image-box"
@@ -474,6 +475,7 @@ const Pofrfolio = () => {
             />
             <div className="overflow"></div>
             <FontAwesomeIcon className="portfolio-icon" icon={faSearchPlus} />
+            <div>Unity 3D and Vuforia AR Mobile</div>
           </div>
         </div>
       </div>
